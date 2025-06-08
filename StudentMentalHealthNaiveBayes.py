@@ -17,7 +17,7 @@ from scipy import stats
 
 st.set_page_config(layout="wide")
 
-mypath = "/Users/idinal/Desktop/Data_Science/"
+mypath = ""
 
 student = pd.read_csv(mypath+"Student_Mentalhealth.csv")
 student_original = student.copy()
